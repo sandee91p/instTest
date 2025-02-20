@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    android:compileSdkVersion="23"
+    android:compileSdkVersionCodename="6.0-2438415"
+    package="com.appd.instll.load"
+    platformBuildVersionCode="29"
+    platformBuildVersionName="10"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Allows the app to read the contents of your SD card. -->
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- Allows the app to write to the SD card. -->
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- Allows an application to request installation of packages. -->
+    <uses-permission
+        android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <!-- Allows an application to request deletion of packages. -->
+    <uses-permission
+        android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+    <application
+        android:theme="@android:style/Theme.Translucent.NoTitleBar"
+        android:label="@string/Myname"
+        android:icon="@drawable/myicon"
+        android:installLocation="internalOnly"
+        android:hardwareAccelerated="true"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:requestLegacyExternalStorage="true">
+        <activity
+            android:name="com.appd.instll.ufmbtltquossowqoxfqbwpamerkbaz2" />
+        <activity
+            android:name="com.appd.instll.dapenvuwejylecxmemckzigsvucpcz3" />
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:label="@string/Myname"
+            android:icon="@drawable/myicon"
+            android:name="com.appd.instll.splash"
+            android:exported="true">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+                <category
+                    android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.VIEW" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <category
+                    android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="file"
+                    android:host="*"
+                    android:pathPattern=".*\\.apks" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="file"
+                    android:host="*"
+                    android:pathPattern=".*\\..*\\.apks" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="file"
+                    android:host="*"
+                    android:pathPattern=".*\\..*\\..*\\.apks" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="file"
+                    android:host="*"
+                    android:pathPattern=".*\\..*\\..*\\..*\\.apks" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="file"
+                    android:host="*"
+                    android:pathPattern=".*\\..*\\..*\\..*\\..*\\.apks" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="file"
+                    android:host="*"
+                    android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.apks" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="file"
+                    android:host="*"
+                    android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.apks" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="file"
+                    android:host="*"
+                    android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.apks" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="file"
+                    android:host="*"
+                    android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.apks" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="file"
+                    android:host="*"
+                    android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.apks" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="content"
+                    android:host="*"
+                    android:pathPattern=".*\\.apks" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="content"
+                    android:host="*"
+                    android:pathPattern=".*\\..*\\.apks" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="content"
+                    android:host="*"
+                    android:pathPattern=".*\\..*\\..*\\.apks" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="content"
+                    android:host="*"
+                    android:pathPattern=".*\\..*\\..*\\..*\\.apks" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="content"
+                    android:host="*"
+                    android:pathPattern=".*\\..*\\..*\\..*\\..*\\.apks" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="content"
+                    android:host="*"
+                    android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.apks" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="content"
+                    android:host="*"
+                    android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.apks" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="content"
+                    android:host="*"
+                    android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.apks" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="content"
+                    android:host="*"
+                    android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.apks" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="content"
+                    android:host="*"
+                    android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.apks" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="file"
+                    android:host="*"
+                    android:pathPattern=".*\\.apkm" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="file"
+                    android:host="*"
+                    android:pathPattern=".*\\..*\\.apkm" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="file"
+                    android:host="*"
+                    android:pathPattern=".*\\..*\\..*\\.apkm" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="file"
+                    android:host="*"
+                    android:pathPattern=".*\\..*\\..*\\..*\\.apkm" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="file"
+                    android:host="*"
+                    android:pathPattern=".*\\..*\\..*\\..*\\..*\\.apkm" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="file"
+                    android:host="*"
+                    android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.apkm" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="file"
+                    android:host="*"
+                    android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.apkm" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="file"
+                    android:host="*"
+                    android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.apkm" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="file"
+                    android:host="*"
+                    android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.apkm" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="file"
+                    android:host="*"
+                    android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.apkm" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="content"
+                    android:host="*"
+                    android:pathPattern=".*\\.apkm" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="content"
+                    android:host="*"
+                    android:pathPattern=".*\\..*\\.apkm" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="content"
+                    android:host="*"
+                    android:pathPattern=".*\\..*\\..*\\.apkm" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="content"
+                    android:host="*"
+                    android:pathPattern=".*\\..*\\..*\\..*\\.apkm" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="content"
+                    android:host="*"
+                    android:pathPattern=".*\\..*\\..*\\..*\\..*\\.apkm" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="content"
+                    android:host="*"
+                    android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.apkm" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="content"
+                    android:host="*"
+                    android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.apkm" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="content"
+                    android:host="*"
+                    android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.apkm" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="content"
+                    android:host="*"
+                    android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.apkm" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="content"
+                    android:host="*"
+                    android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.apkm" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:label="@string/Myname2"
+            android:icon="@drawable/inv"
+            android:name="com.appd.instll.alohyashvgszwxowunyvaqssltgiil4"
+            android:exported="true" />
+        <activity-alias
+            android:name="com.appd.dapenvuwejylecxmemckzigsvucpcz3Theme2"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.appd.instll.alohyashvgszwxowunyvaqssltgiil4">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:exported="false"
+            android:authorities="com.appd.instll.load.provider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/prov_path" />
+        </provider>
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="ClassGen9" />
+        <meta-data
+            android:name="com.google.android.gms.car.application"
+            android:value="1" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="13547000" />
+        <meta-data
+            android:name="com.google.android.ALLOW_PHISHING_DETECTION"
+            android:value="false" />
+        <meta-data
+            android:name="com.sec.android.support.multiwindow"
+            android:value="true" />
+        <meta-data
+            android:name="com.sec.android.multiwindow.DEFAULT_SIZE_W"
+            android:value="632.0dip" />
+        <meta-data
+            android:name="com.sec.android.multiwindow.DEFAULT_SIZE_H"
+            android:value="598.0dip" />
+        <meta-data
+            android:name="com.sec.android.multiwindow.MINIMUM_SIZE_W"
+            android:value="632.0dip" />
+        <meta-data
+            android:name="com.sec.android.multiwindow.MINIMUM_SIZE_H"
+            android:value="598.0dip" />
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.1" />
+        <meta-data
+            android:name="com.android.dynamic.apk.fused.modules"
+            android:value="base" />
+        <meta-data
+            android:name="com.android.stamp.source"
+            android:value="https://play.google.com/store" />
+        <meta-data
+            android:name="com.android.stamp.type"
+            android:value="STAMP_TYPE_STANDALONE_APK" />
+        <meta-data
+            android:name="com.android.vending.derived.apk.id"
+            android:value="1" />
+    </application>
+</manifest>
